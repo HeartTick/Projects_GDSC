@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #2c3e50; /* Updated background color */
+}
+
+.container {
+    margin-left: 1.8em;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 13px 13px 20px #34495e,
+        -13px -13px 20px #2c3e50; /* Updated box-shadow colors */
+    background: #8e9295;
+}
+
+.content {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row button {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #2c3e50, /* Updated button box-shadow colors */
+        -5px -5px 8px #898a8b;
+    color: #2c3e50; /* Updated button text color */
+}
+
+.row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+        inset -5px -5px 8px #ecf0f3;
+    background: #ecf0f3;
+}
+
+.display #screen {
+    margin-bottom: .5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #3498db; /* Updated display background color */
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #2980b9,
+        inset -8px -8px 8px #3498db;
+    color: #c56161; /* Updated display text color */
+}
+
+#eval {
+    background: #e74c3c; /* Updated equals button background color */
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #c0392b,
+        inset -5px -5px 8px #e74c3c;
+}
+
+#eval:hover {
+    box-shadow: inset 5px 5px 8px #e74c3c,
+        inset -5px -5px 8px #e74c3c;
+}
+
+#ac {
+    background: #27ae60; /* Updated AC button background color */
+    color: #fff;
+}
+
+#ac:hover {
+    box-shadow: inset 5px 5px 8px #229954,
+        inset -5px -5px 8px #27ae60;
+}
+
+#ce {
+    background: #e67e22; /* Updated CE button background color */
+    color: #bd6a6a;
+}
+
+#ce:hover {
+    box-shadow: inset 5px 5px 8px #d35400,
+        inset -5px -5px 8px #e67e22;
+}
